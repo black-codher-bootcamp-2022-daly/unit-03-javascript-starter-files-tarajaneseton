@@ -1,70 +1,37 @@
-// ****************************************************TASK 1 - OBJECTS****************************************************
 
+    
+    
 
+const personA = {
+    name: 'Will',
+    age: 34,
+    location: 'east london',
+    likes: 'music'
+}
 
+const personB = {
+    name: 'cleo',
+    age: 2,
+    location: 'east london',
+    likes: 'apples'
+}
 
+const personC = {
+    name: 'cherelle',
+    age: 34,
+    location: 'croydon',
+    likes: 'wine'
+}
 
+const personD = {
+    name: 'Tara',
+    age: 34,
+    location: 'east london',
+    likes: 'chocolate'
+}
 
+function biography(person) {
+    return `Hi my name is ${person.name}, I am ${person.age} years old and I live in ${person.location}. I like ${person.likes}.`
+    }
 
-
-
-
-
-
-
-
-
-
-
-// ****************************************************TASK 2 - MATHS OPERATORS****************************************************
-// ***Uncomment the code below to begin the task***
-
-// const x = 6;
-// const y = 4;
-
-// const addition = x + y;
-
-// console.log("Addition: x + y " + addition);
-
-// const subtraction = x - y;
-
-// console.log("Subtraction: x - y " + subtraction);
-
-// const multiplication = x * y;
-
-// console.log("multiplication: x * y " + multiplication);
-
-// const division = x * y;
-
-// console.log("Division: x + y " + division);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// ****************************************************TASK 3****************************************************
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(biography(personC));
