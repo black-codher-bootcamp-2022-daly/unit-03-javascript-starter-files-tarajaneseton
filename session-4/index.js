@@ -2,33 +2,33 @@
     
     
 
-// const personA = {
-//     name: 'Will',
-//     age: 34,
-//     location: 'east london',
-//     likes: 'music'
-// }
+const personA = {
+    name: 'Will',
+    age: 34,
+    location: 'east london',
+    likes: 'music'
+}
 
-// const personB = {
-//     name: 'cleo',
-//     age: 2,
-//     location: 'east london',
-//     likes: 'apples'
-// }
+const personB = {
+    name: 'cleo',
+    age: 2,
+    location: 'east london',
+    likes: 'apples'
+}
 
-// const personC = {
-//     name: 'cherelle',
-//     age: 34,
-//     location: 'croydon',
-//     likes: 'wine'
-// }
+const personC = {
+    name: 'cherelle',
+    age: 34,
+    location: 'croydon',
+    likes: 'wine'
+}
 
-// const personD = {
-//     name: 'Tara',
-//     age: 34,
-//     location: 'east london',
-//     likes: 'chocolate'
-// }
+const personD = {
+    name: 'Tara',
+    age: 34,
+    location: 'east london',
+    likes: 'chocolate'
+}
 
 // function biography(person) {
 //     return `Hi my name is ${person.name}, I am ${person.age} years old and I live in ${person.location}. I like ${person.likes}.`
@@ -40,22 +40,38 @@
 
 
 
-function addNumbers (x,y) {
-    return x + y
-}
+// function addNumbers (x,y) {
+//     return x + y
+// }
 
-function subtractNumbers(x,y) {
-    return x - y
-}
+// function subtractNumbers(x,y) {
+//     return x - y
+// }
 
-const calculator = {
-    add: addNumbers,
-    subtract: subtractNumbers,
-    multiply: function multiplyNumbers(x,y) {
-        return x * y
-    },
-    divide: (x, y) => x / y,
-}
+// const calculator = {
+//     add: addNumbers,
+//     subtract: subtractNumbers,
+//     multiply: function multiplyNumbers(x,y) {
+//         return x * y
+//     },
+//     divide: (x, y) => x / y,
+// }
 
 
-console.log(calculator.divide(10,2))
+// console.log(calculator.divide(10,2))
+
+
+function whoIsOlder (personA, personB) {
+    const isAgreaterThanB = personA.age > personB.age;
+    const ageDifference = personA.age - personB.age;
+    const aIsOlder = `${personA.name} is ${ageDifference} years older than ${personB.name}`;
+    return `${personA.name} is ${ageDifference} years older than ${personB.name}.`;
+
+};
+
+console.log(whoIsOlder (personA, personB));
+
+
+    // const bIsOlder = `${personA.name} is ${ageDifference} years older than${personB.name}`
+
+ 
