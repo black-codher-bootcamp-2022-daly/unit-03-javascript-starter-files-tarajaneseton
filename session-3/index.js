@@ -15,26 +15,26 @@
 
 // console.log(c);
 
-function sayHey() { 
-    console.log("Hey!"); 
-}
+// function sayHey() { 
+//     console.log("Hey!"); 
+// }
 
-function conversation(name, topic) {
-    sayHey(name); 
-    console.log("Do you like" + topic + "?");
-}
+// function conversation(name, topic) {
+//     sayHey(name); 
+//     console.log("Do you like" + topic + "?");
+// }
 
-conversation("Erika", "pizza");
+// conversation("Erika", "pizza");
 // conversation();
 
 // // sayHey();
 
 
 
-// function futureAge (name, age) {
-//     const calculateAge = age + 5
-//     return "Hi" + name + "!" + calculateAge
-// }
-// futureAge ( "tara", 35 );
+function futureAge (name, age) {
+    const calculateAge = age + 5;
+    return "Hi" + name + "!" + "You will be" + calculateAge + "in 5 years";
+}
+futureAge ( "tara", 35 );
 
-// console.log(futureAge("Tara", 35))
+console.log(futureAge("Tara", 35))
