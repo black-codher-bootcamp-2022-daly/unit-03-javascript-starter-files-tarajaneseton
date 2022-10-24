@@ -1,5 +1,20 @@
 // ****************************************************TASK 1****************************************************
+const animals = ["dog", "cat", "mouse"];
+const ages = [2, 4, 5, 6];
 
+// const people = [personA, personB, personC];
+
+// for (let index = 0; index < animals.length; index++) {
+//   const animal = animals[index];
+
+animals.push('llama')
+animals.unshift('cow')
+
+animals.pop();
+
+  console.log(animals)
+
+ 
 
 
 
